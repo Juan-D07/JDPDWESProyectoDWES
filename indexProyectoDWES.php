@@ -44,8 +44,8 @@
         <div class="Unidad-grid">
 
           <a class="eje-div" href="docs/EstudioTema1.pdf">
-          <div class="eje-titulo">Eje1</div>
-          <div class="eje-nombre"> Ejercicio Tema 1 </div>
+          <div class="eje-titulo">ET1</div>
+          <div class="eje-nombre"> Estudio Tema 1 </div>
         </a>
         </div>
     </section>
