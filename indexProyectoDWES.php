@@ -22,90 +22,36 @@
     </div>
   </header>
 
-  <nav class="sidebar">
-
-    <a href="#u1"><button> UT1</button></a>
-    <a href="#u2"><button> UT2</button></a>
-    <a href="#u3"><button> UT3</button></a>
-    <a href="#u4"><button> UT4</button></a>
-    <a href="#u5"><button> UT5</button></a>
-    <a href="#u6"><button> UT6</button></a>
-    <a href="#u7"><button> UT7</button></a>
-    <a href="#u8"><button> UT8</button></a>
-
-      
-  </nav>
-
   <main>
-    <section id="u1">
-        <h3 >
-          UT1: DESARROLLO WEB EN ENTORNO SERVIDOR
-        </h3>
-        <div class="Unidad-grid">
-
-          <a class="eje-div" href="docs/EstudioTema1.pdf" target="_blank">
-          <div class="eje-titulo">ET1</div>
-          <div class="eje-nombre"> Estudio Tema 1 </div>
-        </a>
+    <div class="grid-div">
+        <div class="unidad-div">
+          <div class="unidad-titulo">UT1: DESARROLLO WEB EN ENTORNO SERVIDOR</div>
+          <span><a class="ejercicio-nombre" href="docs/EstudioTema1.pdf"> Estudio Tema 1 </a></span>
         </div>
-    </section>
-    <section id="u2">
-        <h3 >
-          UT2: INSTALACIÓN, CONFIGURACIÓN Y DOCUMENTACIÓN DEL ENTORNO DE DESARROLLO
-        </h3>
-        <div class="Unidad-grid">
-
-         
+        <div class="unidad-div">
+          <div class="unidad-titulo">UT2: INSTALACIÓN, CONFIGURACIÓN Y DOCUMENTACIÓN</div>
         </div>
-    </section>
-    <section id="u3">
-        <a href="../JDPDWESProyectoTema3/indexProyectoTema3.php">
-        <h3 >
-          UT3: CARACTERÍSTICAS DEL LENGUAJE PHP
-        </h3>
-        </a>
-        <div class="Unidad-grid">
+        <div class="unidad-div">
+          <a class="funcional" href="../JDPDWESProyectoTeam3/indexProyectoTeam3.php">
+            <div class="unidad-titulo">UT3: CARACTERÍSTICAS DEL LENGUAJE PHP </div>
+          </a>
         </div>
-    </section>
-    <section id="u4">
-        <h3 >
-          UT4: TÉCNICAS DE ACCESO A DATOS EN PHP
-        </h3>
-        <div class="Unidad-grid">
+        <div class="unidad-div">
+          <div class="unidad-titulo">UT4: TÉCNICAS DE ACCESO A DATOS EN PHP</div>
         </div>
-    </section>
-    <section id="u5">
-        <h3 >
-          UT5: DESARROLLO DE APLICACIONES WEB
-        </h3>
-        <div class="Unidad-grid">
+        <div class="unidad-div">
+          <div class="unidad-titulo">UT5: DESARROLLO DE APLICACIONES WEB</div>
         </div>
-    </section>
-    <section id="u6">
-        <h3 >
-          UT6: APLICACIONES WEB MULTICAPA
-        </h3>
-        <div class="Unidad-grid">
+        <div class="unidad-div">
+          <div class="unidad-titulo">UT6: APLICACIONES WEB MULTICAPA</div>
         </div>
-    </section>
-    <section id="u7">
-        <h3 >
-          UT7: PROGRAMACIÓN DE SERVICIOS WEB
-        </h3>
-        <div class="Unidad-grid">
+        <div class="unidad-div">
+          <div class="unidad-titulo">UT7: PROGRAMACIÓN DE SERVICIOS WEB</div>
         </div>
-    </section>
-    <section id="u8">
-        <h3 >
-          UT8: DESARROLLO DE APLICACIONES WEB HÍBRIDAS
-        </h3>
-        <div class="Unidad-grid">
+        <div class="unidad-div">
+          <div class="unidad-titulo">UT8: DESARROLLO DE APLICACIONES WEB HÍBRIDAS</div>
         </div>
-    </section>
-    
-
-      
-
+      </div>
   </main>
 
   <footer>

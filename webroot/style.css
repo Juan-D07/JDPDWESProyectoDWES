@@ -63,109 +63,57 @@ h2{
 }
 
 
-nav{
-  width:105px;
-  position: fixed;
-  background-color: rgb(10, 10, 10);
-  left:0;
-  top:140px;
-  display:flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 20px;
-  gap: 20px
-
-}
-
-nav button{
-  font-weight: 400;
-  font-size: 30px;
-  color: white;
-  background-color: rgb(10, 10, 10);
-  border: 2px solid rgb(255, 165, 0);
-  height: 80px;
-  width: 80px;
-  text-align:center;
-  
-}
-
-nav button:hover{
-  cursor: pointer;
-  transform: translateY(-4px);
-  box-shadow: 0 4px  orange;
-  
-}
-
-nav button:active{
-  transform: translateY(4px);
-  box-shadow: 0 0  orange;
-}
-
-main{
-    padding-left: 120px;
-}
-
-section{
-  margin: 4vw 2vw;
-  display: flex;
-  flex-direction: column;
-  border-left: 4px solid orange;
-}
-
-h3{
-  text-align: left;
-  font-size: 2vw;
-  margin: 1vw 0 0 2vw;
-  color: black;
-}
-
-#u3 h3:hover{
-  color: orange;
-  cursor: pointer;
-}
-
-.Unidad-grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  margin: 2vw;
-  gap:2vw
-}
-
-.eje-div{
-  text-decoration: none;
-  border:4px solid orange;
-  color: black;
-}
-
-
-.eje-titulo{
-  border-bottom:2px solid orange;
-  text-align: center;
-  width: 100%;
-  padding: 6px 0;
-  font-size: 5vw;
-  font-weight: 700;
-}
-
-
-.eje-nombre{
-  text-align: left;
-  padding-left: 10px;
-  font-size: 1vw;
-  font-weight: 400;
-}
-
-.eje-div:hover{
-  
-  cursor: pointer;
-  transform: translateY(-6px);
-  box-shadow: 0 6px  orange;
-}
 
 a {
   text-decoration: none; 
 }
 
+
+.grid-div{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 2vw  6vw;
+  gap:2vw
+}
+
+.unidad-div{
+  text-decoration: none;
+  border:4px solid orange;
+  color: black;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+
+.unidad-titulo{
+  width: 100%;
+  padding: 6px 0;
+  font-size: 2.5vw;
+  font-weight: 700;
+  border-bottom: 3px solid orange;
+  margin-bottom: 10px;
+}
+
+.ejercicio-nombre{
+  color:black;
+  background-color: orange;
+  padding: 2px 6px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.ejercicio-nombre:hover{
+  color:white;
+  background-color: rgb(10, 10, 10);
+}
+
+.funcional .unidad-titulo{
+  color: black;
+}
+
+.funcional .unidad-titulo:hover{
+  color: orange;
+}
 
 
 
@@ -195,8 +143,8 @@ footer{
 
 
 @media (min-width:1001px) and (max-width: 1500px){
-  .Unidad-grid{
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+  .grid-div{
+    grid-template-columns: 1fr 1fr 1fr;
   }
   .eje-nombre{
     font-size: 16px;
@@ -204,45 +152,40 @@ footer{
 }
 
 @media (min-width:621px) and (max-width: 1001px){
-  .Unidad-grid{
-    grid-template-columns: 1fr 1fr 1fr;
+  .grid-div{
+    grid-template-columns: 1fr 1fr;
   }
-  .eje-nombre{
+  .ejercicio-nombre{
     font-size: 16px;
+    padding: 2px 4px;
   }
-  h3{
-    font-size: 20px;
+
+  .unidad-titulo{
+    font-size: 24px;
   }
+
 }
 
 @media (max-width: 620px){
-  .Unidad-grid{
-    grid-template-columns: 1fr 1fr;
+  .grid-div{
+    grid-template-columns: 1fr;
   }
-  .eje-nombre{
+  .ejercicio-nombre{
     font-size: 14px;
+    padding: 1px 2px;
   }
   h2{
     font-size: 22px;
   }
-  h3{
-    font-size: 20px;
+  .unidad-titulo{
+    font-size: 22px;
   }
-  nav{
-    width: 55px;
+
+}
+
+@media (min-width: 2600px){
+  .unidad-titulo{
+    font-size: 60px;
   }
-  nav button{
-  font-weight: 400;
-  font-size: 15px;
-  height: 40px;
-  width: 40px;
 }
-
-main{
-    padding-left: 60px;
-}
-
-
-}
-
 
