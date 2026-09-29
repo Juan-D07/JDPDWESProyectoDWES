@@ -18,7 +18,7 @@
     </div>
 
     <div class="header-der">
-      <h2> Desarrollo Web en Entorno Servidor· Juan Miguel Dominguez Perdigon</h2>
+      <h2> Desarrollo Web en Entorno Servidor · Juan Miguel Dominguez Perdigon</h2>
     </div>
   </header>
 
@@ -43,7 +43,7 @@
         </h3>
         <div class="Unidad-grid">
 
-          <a class="eje-div" href="docs/EstudioTema1.pdf">
+          <a class="eje-div" href="docs/EstudioTema1.pdf" target="_blank">
           <div class="eje-titulo">ET1</div>
           <div class="eje-nombre"> Estudio Tema 1 </div>
         </a>

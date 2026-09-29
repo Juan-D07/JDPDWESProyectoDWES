@@ -56,7 +56,7 @@ header{
 
 h2{
   text-align: center;
-  font-size: 2vw;
+  font-size: 1.9vw;
   border-bottom: 2px solid orange;
   padding: 4px;
   margin: 0 12vw;
@@ -119,7 +119,7 @@ h3{
   color: black;
 }
 
-h3:hover{
+#u3 h3:hover{
   color: orange;
   cursor: pointer;
 }
