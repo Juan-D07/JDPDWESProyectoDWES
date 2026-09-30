@@ -26,13 +26,13 @@
     <div class="grid-div">
         <div class="unidad-div">
           <div class="unidad-titulo">UT1: DESARROLLO WEB EN ENTORNO SERVIDOR</div>
-          <span><a class="ejercicio-nombre" href="docs/EstudioTema1.pdf"> Estudio Tema 1 </a></span>
+          <span><a class="ejercicio-nombre" href="docs/EstudioTema1.pdf" target="_blank"> Estudio Tema 1 </a></span>
         </div>
         <div class="unidad-div">
           <div class="unidad-titulo">UT2: INSTALACIÓN, CONFIGURACIÓN Y DOCUMENTACIÓN</div>
         </div>
         <div class="unidad-div">
-          <a class="funcional" href="../JDPDWESProyectoTeam3/indexProyectoTeam3.php">
+          <a class="funcional" href="../JDPDWESProyectoTema3/indexProyectoTema3.php">
             <div class="unidad-titulo">UT3: CARACTERÍSTICAS DEL LENGUAJE PHP </div>
           </a>
         </div>
