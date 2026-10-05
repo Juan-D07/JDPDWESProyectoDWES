@@ -56,7 +56,7 @@ header{
 
 h2{
   text-align: center;
-  font-size: 1.9vw;
+  font-size: 1.6vw;
   border-bottom: 2px solid orange;
   padding: 4px;
   margin: 0 12vw;
@@ -73,7 +73,8 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: 2vw  6vw;
-  gap:2vw
+  column-gap:3vw;
+  row-gap: 5vw;
 }
 
 .unidad-div{
@@ -88,10 +89,17 @@ a {
 .unidad-titulo{
   width: 100%;
   padding: 6px 0;
-  font-size: 2.5vw;
+  font-size: 1.8vw;
   font-weight: 700;
+}
+
+
+.grid-div{
+ .unidad-div:nth-child(1) .unidad-titulo,
+ .unidad-div:nth-child(2) .unidad-titulo{
   border-bottom: 3px solid orange;
   margin-bottom: 10px;
+}
 }
 
 .ejercicio-nombre{
