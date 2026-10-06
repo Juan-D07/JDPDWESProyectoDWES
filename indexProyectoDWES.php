@@ -30,7 +30,8 @@
         </div>
         <div class="unidad-div">
           <div class="unidad-titulo">INSTALACIÓN Y CONFIGURACIÓN</div>
-          <span><a class="ejercicio-nombre" href="https://github.com/Juan-D07/JDPDAWProyectoDAW/servidorDesarrolloDocu.md" target="_blank"> Servidor de Desarrollo Documentacion </a></span>
+          <span><a class="ejercicio-nombre" href="https://github.com/Juan-D07/JDPDAWProyectoDAW/blob/main/docs/usedguia.md" target="_blank"> USED - Servidor Web</a></span>
+          <span><a class="ejercicio-nombre" href="https://github.com/Juan-D07/JDPDAWProyectoDAW/blob/main/docs/w11guia.md" target="_blank"> W11ED - Cliente de Desarrollo</a></span>
         </div>
         <div class="unidad-div">
           <a class="funcional" href="../JDPDWESProyectoTema3/indexProyectoTema3.php">
@@ -38,7 +39,9 @@
           </a>
         </div>
         <div class="unidad-div">
+          <a class="funcional" href="../JDPDWESProyecto4/indexProyectoTema3.php">
           <div class="unidad-titulo">TÉCNICAS DE ACCESO A DATOS EN PHP</div>
+          </a>
         </div>
         <div class="unidad-div">
           <div class="unidad-titulo"> DESARROLLO DE APLICACIONES WEB</div>
