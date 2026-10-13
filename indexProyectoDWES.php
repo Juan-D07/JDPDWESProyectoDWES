@@ -30,8 +30,10 @@
         </div>
         <div class="unidad-div">
           <div class="unidad-titulo">INSTALACIÓN Y CONFIGURACIÓN</div>
-          <div><span><a class="ejercicio-nombre" href="https://github.com/Juan-D07/JDPDAWProyectoDAW/blob/main/docs/Documentacion-JDP-USED.md" target="_blank"> USED - Servidor Web</a></span></div> <br>
-          <div><span><a class="ejercicio-nombre" href="https://github.com/Juan-D07/JDPDAWProyectoDAW/blob/main/docs/Documentacion-JDP-W10ED.md" target="_blank"> W11ED - Cliente de Desarrollo</a></span></div>
+          <div class="lista-ejercicio">
+            <span><a class="ejercicio-nombre" href="https://github.com/Juan-D07/JDPDAWProyectoDAW/blob/main/docs/Documentacion-JDP-USED.md" target="_blank"> USED - Servidor Web</a></span>
+            <span><a class="ejercicio-nombre" href="https://github.com/Juan-D07/JDPDAWProyectoDAW/blob/main/docs/Documentacion-JDP-W10ED.md" target="_blank"> W11ED - Cliente de Desarrollo</a></span>
+          </div>
         </div>
         <div class="unidad-div">
           <a class="funcional" href="../JDPDWESProyectoTema3/indexProyectoTema3.php">
