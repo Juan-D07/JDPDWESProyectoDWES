@@ -46,10 +46,12 @@
           </a>
         </div>
         <div class="unidad-div">
-          <a class="funcional" href="../JDPDWESProyectoTema5/indexProyectoTema5.php">
-            <div class="unidad-titulo"> DESARROLLO DE APLICACIONES WEB</div>
-          </a>
-        </div>
+          <div class="unidad-titulo"> DESARROLLO DE APLICACIONES WEB</div>
+          <div class="lista-ejercicio">
+            <span><a class="ejercicio-nombre" href="../JDPDWESProyectoTema5/indexProyectoTema5.php"> Tema 5</a></span>
+            <span><a class="ejercicio-nombre" href="../JDPDWESLoginLogoffTema5/indexLoginLogoffTema5.php"> Login/Logoff Tema 5</a></span>
+          </div>        
+      </div>
         <div class="unidad-div">
           <div class="unidad-titulo"> APLICACIONES WEB MULTICAPA</div>
         </div>
